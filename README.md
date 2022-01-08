@@ -11,7 +11,7 @@
 <h2> Ambientes de Desenvolvimento utilizados: </h2>
 
 <li>  <b> Visual Studio Code </b> </li>
-<li>  <b> MySql WorkBranch </b> </li>
+<li>  <b> MySql WorkBench </b> </li>
 
 <h2> Etapas para executar o projeto </h2>
 
@@ -22,7 +22,7 @@ que são as utilizadas pelo Apache e MySql (Portas 80, 443, 3306).
 cuidar de todos repositórios e iniciar o TomCat (porta 8080) e fazer a conexão com o Banco de Dados.
 (Podemos executar via Spring Boot Dashboard também via Visual Studio Code.)
 
-<h2> Registrando os dados pelo advanced rest client através do protocolo HTTP </h2>
+<h2> Registrando os dados pelo Advanced Rest Client através do protocolo HTTP </h2>
   
 <p>
   Com a aplicação rodando e o servidor online podemos manipular os dados do tipo JSON, referente ao link de acesso
@@ -140,6 +140,15 @@ spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver <b>(para banco de d
 server.port=8080
 
 </p>
+
+<h2> Utilitários </h2>
+
+<li> <b> Advance Rest Client </b> https://install.advancedrestclient.com/install </li>
+<li> <b> XAMPP </b> https://www.apachefriends.org/pt_br/index.html </li>
+<li> <b> MySql Workbench </b> https://dev.mysql.com/downloads/workbench/ (consultar o database e suas colunas caso desejar pela ferramenta) </li> 
+<li> <b> Visual Studio Code </b> https://visualstudio.microsoft.com/pt-br/downloads/ </li>
+<li> <b> Maven </b>  https://maven.apache.org/what-is-maven.html </li>
+<li> <b> Spring Boot </b>  https://spring.io/projects/spring-boot </li>
 
 
 
