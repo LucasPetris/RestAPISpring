@@ -15,12 +15,12 @@
 
 <h2> Etapas para executar o projeto </h2>
 
-<p>   Primeiramente precisamos ligar as portas pelo XAMPP (ou se preferir XAMP) 
+<p>   Primeiramente precisamos ligar as portas pelo XAMPP (ou se preferir WAMP) 
 que são as utilizadas pelo Apache e MySql (Portas 80, 443, 3306).
 <br>
   Com as portas abertas podemos Executar a Classe Main (RestapiApplication.java) que é responsável por
-cuidar de todos repositorios, iniciar o TomCat (porta 8080) e fazer a conexão com o Banco de Dados.
-(Podemos executar via Spring Boot Dashboard também.)
+cuidar de todos repositórios e iniciar o TomCat (porta 8080) e fazer a conexão com o Banco de Dados.
+(Podemos executar via Spring Boot Dashboard também via Visual Studio Code.)
 
 <h2> Registrando os dados pelo advanced rest client através do protocolo HTTP </h2>
   
@@ -71,7 +71,7 @@ cuidar de todos repositorios, iniciar o TomCat (porta 8080) e fazer a conexão c
 sendo que podemos visualizar as colunas e os registros pelo MySql Workbench ou pelo Postgre Sql 
 </p>
 
-<h2> Classes que contém os metódos requeridos </h2>
+<h2> Classes que contém os metódos requeridos (filtragens) </h2>
 
 <li> ContasREST.java </li>
 <p> 
