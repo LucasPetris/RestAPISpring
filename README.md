@@ -1,6 +1,6 @@
 # <h1> Rest API com Spring Boot + Maven - </h1>
 
-<p> <Strong> Desenvolvido com o framework Spring na linguagem Java com uma Rest API consumindo os Dados. </strong> </p>
+<p> <Strong> Desenvolvido com o framework Spring na linguagem Java sendo uma Rest API consumindo os Dados. </strong> </p>
 
 <h2> Tecnologias Utilizadas: </h2>
 
