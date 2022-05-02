@@ -17,6 +17,12 @@ public class Contas {
     @Column(nullable = false)
     private String instituicaoFinanceira;
 
+    public Contas(Long conta, String tipoConta, String instituicaoFinanceira) {
+        this.conta = conta;
+        this.tipoConta = tipoConta;
+        this.instituicaoFinanceira = instituicaoFinanceira;
+    }
+
     public float getSaldo() {
         return saldo;
     }
@@ -41,4 +47,5 @@ public class Contas {
     public void setConta(Long conta) {
         this.conta = conta;
     }
+
 }
