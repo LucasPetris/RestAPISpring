@@ -1,4 +1,4 @@
-package com.desafiopubfuture.restapi;
+package com.restapicrud.restapi;
 
 import org.springframework.boot.test.context.SpringBootTest;
 
